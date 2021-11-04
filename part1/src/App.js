@@ -12,7 +12,7 @@ const App = () => {
       ...clicks, 
       good: clicks.good + 1,
       total: clicks.total + 1,
-      avg: clicks.avg = 
+      avg: clicks.avg = Math.abs(good - bad) / total
     })
     
   }
